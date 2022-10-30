@@ -3,7 +3,8 @@ import { useContext } from "react"
 import { Container, Navbar, Nav } from "react-bootstrap"
 import { ThemeContext } from "../GlobalComponents/ThemeProvider"
 import { BiSun, BiMoon, BiCart } from "react-icons/bi"
-import { Link } from "@reach/router"
+import { Link } from "react-router-dom"
+
 import { useCart } from "react-use-cart"
 
 function Header() {
@@ -44,7 +45,7 @@ function Header() {
               {darkMode ? <BiSun size="1.7rem" /> : <BiMoon size="1.7rem" />}
             </Nav.Link>
             <Link
-              to="/cart"
+              to="cart"
               className={`${darkMode} ? "text-dark-primary" : "text-light-primary" d-flex align-items-center`}
             >
               <BiCart
