@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ecom-lib-rc/static/css/main.10913d78.css",
+    "main.js": "/ecom-lib-rc/static/js/main.5e63d5e9.js",
+    "index.html": "/ecom-lib-rc/index.html",
+    "main.10913d78.css.map": "/ecom-lib-rc/static/css/main.10913d78.css.map",
+    "main.5e63d5e9.js.map": "/ecom-lib-rc/static/js/main.5e63d5e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10913d78.css",
+    "static/js/main.5e63d5e9.js"
+  ]
+}
